@@ -1,0 +1,53 @@
+.App {
+  font-family: Roboto , sans-serif;
+}
+
+.categoriesList {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.categoriesItem {
+  background-color: teal;
+  color: white;
+  display: grid;
+  margin: 10px;
+  padding: 10px;
+  place-items: center;
+}
+
+.mainPage {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.categoriesList button {
+  background-color: white;
+  border: 0;
+  box-shadow: 1px 1px 3px seagreen;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8em;
+  margin: 5px;
+  padding: 7px 10px;
+}
+
+.categoriesList button:focus {
+  outline: 0;
+}
+
+.cardsDiv {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.zeroProducts {
+  font-size: 2em;
+  text-align: center;
+}

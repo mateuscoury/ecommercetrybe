@@ -1,0 +1,74 @@
+.productCard {
+  box-shadow: 1px 1px 3px salmon;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px;
+  width: 23%;
+}
+
+.imgDiv {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.imgDiv img {
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.textDiv {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.textDiv p {
+  font-size: 2em;
+  margin: 0;
+}
+
+.textDiv h4 {
+  color: grey;
+  font-weight: 100;
+  margin: 10px 0;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.textDiv a {
+  background-color: salmon;
+  box-shadow: 1px 1px 2px grey;
+  color: white;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.textDiv a:hover {
+  background-color: white;
+  border: salmon 1px solid;
+  color: salmon;
+}
+
+.textDiv button {
+  background-color: teal;
+  border: 0;
+  box-shadow: 1px 1px 2px grey;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+
+.textDiv button:hover {
+  background-color: white;
+  border: teal 1px solid;
+  color: teal;
+}
+
+.textDiv button:focus {
+  outline: 0;
+}

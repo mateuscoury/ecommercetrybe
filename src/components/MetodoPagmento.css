@@ -1,0 +1,36 @@
+.metodosDiv {
+  border: 0;
+  box-shadow: 3px 3px 4px teal;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  padding: 20px 60px;
+}
+
+.metodosDiv legend {
+  color: gray;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.metodosDiv label {
+  align-items: center;
+  color: gray;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 2em;
+  gap: 5px;
+  height: 50px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.metodosDiv label:focus {
+  background-color: salmon;
+}
+
+.metodosDiv p {
+  display: inline;
+}

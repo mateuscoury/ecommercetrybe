@@ -1,0 +1,42 @@
+.inputsDiv {
+  border: 0;
+  box-shadow: 3px 3px 4px teal;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  padding: 20px 60px;
+}
+
+.inputsDiv legend {
+  color: gray;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.inputsDiv form {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+.inputsDiv input {
+  border: 0;
+  border-bottom: 1px solid rgba(250, 128, 114, 0.459);
+  font-family: inherit;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.inputsDiv input:focus {
+  outline: 0;
+}
+
+.inputsDiv select {
+  border: 0;
+  border-bottom: 1px solid rgba(250, 128, 114, 0.459);
+  font-family: inherit;
+  padding: 5px;
+}
+
+.inputsDiv select:focus {
+  outline: 0;
+}

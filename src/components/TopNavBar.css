@@ -1,0 +1,32 @@
+.topNavBar {
+  align-items: center;
+  box-shadow: 0 3px 2px teal;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.topNavBar img {
+  height: 100%;
+  width: auto;
+}
+
+.cartLogo {
+  color: black;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+.cartIcon {
+  align-items: center;
+  color: black;
+  display: flex;
+  font-size: 2.5em;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+}
+

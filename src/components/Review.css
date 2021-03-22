@@ -1,0 +1,30 @@
+.reviewItem {
+  align-items: center;
+  box-shadow: 2px 2px 3px salmon;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px;
+}
+
+.reviewItem p {
+  font-weight: 100;
+  margin: 4px 0;
+}
+
+.reviewItem p:nth-child( 1 ) {
+  color: gray;
+  font-size: 1.5em;
+}
+
+.reviewItem p:nth-child( 2 ) {
+  color: black;
+  font-size: 3em;
+
+}
+
+.reviewItem p:nth-child( 3 ) {
+  color: gray;
+  font-size: 0.7em;
+  font-style: italic;
+  max-width: 150px;
+}

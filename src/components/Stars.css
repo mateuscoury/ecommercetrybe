@@ -1,0 +1,27 @@
+.stars button {
+  background-color: transparent;
+  border: 0;
+  color: lightgray;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.stars button:focus {
+  outline: 0;
+}
+
+.notClicked {
+  color: lightgray;
+}
+
+.notClicked:hover {
+  color: rgb(236, 236, 99);
+}
+
+.stars button:hover {
+  color: rgb(236, 236, 99);
+}
+
+.clicked {
+  color: rgb(163, 163, 36);
+}

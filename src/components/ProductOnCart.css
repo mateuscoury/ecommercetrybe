@@ -1,0 +1,39 @@
+.productOnCart {
+  align-items: center;
+  box-shadow: 2px 2px 3px teal;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 20px;
+  position: relative;
+}
+
+.productOnCart h4 {
+  color: grey;
+  font-weight: 100;
+  margin: 0 10px;
+  width: 40%;
+}
+
+.quantidadeDiv {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.quantidadeDiv button {
+  background-color: transparent;
+  border: 0;
+}
+
+.quantidadeDiv div, .quantidadeDiv button {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.cartPrice {
+  color: gray;
+  font-size: 1.5em;
+}

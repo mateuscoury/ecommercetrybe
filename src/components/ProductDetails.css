@@ -1,0 +1,179 @@
+.detailDiv {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.detailProduct {
+  box-shadow: 2px 2px 3px salmon;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 600px;
+  padding: 20px;
+  width: 100%;
+}
+
+.detailImg {
+  display: inline-block;
+  height: 100%;
+  margin-right: 20px;
+  width: 60%;
+}
+
+.detailImg img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.detailText {
+  border-left: 1px solid lightgray;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15px 15px 15px 30px;
+  width: 40%;
+}
+
+.detailText h3 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+
+.detailPrice {
+  font-size: 3em;
+  margin: 0 0 10px;
+}
+
+.detailText h1 {
+  color: grey;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+
+.detailInfo {
+  color: grey;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+
+.addToCartButton {
+  align-self: center;
+  background-color: teal;
+  border: 0;
+  box-shadow: 1px 1px 2px grey;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+  height: 60px;
+  margin-top: auto;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.addToCartButton:hover {
+  background-color: white;
+  border: teal 1px solid;
+  color: teal;
+}
+
+.addToCartButton:focus {
+  outline: 0;
+}
+
+.addToCartButton:disabled {
+  background-color: grey;
+  border: lightgray;
+  color: lightgray;
+}
+
+.addAndSub {
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 50px;
+  justify-content: space-between;
+  margin: 40px 0 0;
+  width: 30%;
+}
+
+.addAndSub button, .addAndSub div {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.addAndSub button:focus {
+  outline: 0;
+}
+
+.detailReview {
+  box-shadow: 2px 2px 3px teal;
+  margin: 40px 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.detailReview p {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+
+.detailReview form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.detailReview form input {
+  font-family: inherit;
+  font-size: 1.2em;
+  height: 40px;
+  margin: 10px 0;
+  padding: 2px 7px;
+  width: 30%;
+}
+
+.detailReview form textarea {
+  font-family: inherit;
+  font-size: 1.2em;
+  height: 80px;
+  margin: 10px 0;
+  padding: 2px 7px;
+  width: 50%;
+}
+
+.submitBtn {
+  background-color: salmon;
+  border: 0;
+  box-shadow: 1px 1px 2px grey;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+  height: 40px;
+  margin-top: auto;
+  padding: 10px 20px;
+  width: 20%;
+}
+
+.submitBtn:hover {
+  background-color: white;
+  border: salmon 1px solid;
+  color: salmon;
+}
+
+.submitBtn:focus {
+  outline: 0;
+}
+
+.reviewList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
