@@ -166,7 +166,7 @@ class App extends React.Component {
             />) }
           />
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
