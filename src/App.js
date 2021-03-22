@@ -130,7 +130,7 @@ class App extends React.Component {
   render() {
     const { categories, products, productsOnCart, totalItems } = this.state;
     return (
-      <HashRouter>
+      <HashRouter  basename={process.env.PUBLIC_URL}>
         <TopNavBar cartSize={ totalItems } />
         <Switch>
           <Route
