@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Route, Switch } from 'react-router-dom';
+import {  HashRouter, Route, Switch } from 'react-router-dom';
 import CartPage from './components/CartPage';
 import './App.css';
 import './services/api';
@@ -130,7 +130,7 @@ class App extends React.Component {
   render() {
     const { categories, products, productsOnCart, totalItems } = this.state;
     return (
-      <>
+      <HashRouter>
         <TopNavBar cartSize={ totalItems } />
         <Switch>
           <Route
@@ -166,7 +166,7 @@ class App extends React.Component {
             />) }
           />
         </Switch>
-      </>
+      </HashRouter>
     );
   }
 }
