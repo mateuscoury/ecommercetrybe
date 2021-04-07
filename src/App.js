@@ -1,5 +1,5 @@
 import React from 'react';
-import {  BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import CartPage from './components/CartPage';
 import './App.css';
 import './services/api';
@@ -130,43 +130,43 @@ class App extends React.Component {
   render() {
     const { categories, products, productsOnCart, totalItems } = this.state;
     return (
-      <BrowserRouter>
-        <TopNavBar cartSize={ totalItems } />
+      <HashRouter>
+        <TopNavBar cartSize={totalItems} />
         <Switch>
           <Route
             path="/shoppingCart"
-            render={ (props) => (<CartPage
-              { ...props }
-              productsOnCart={ productsOnCart }
-              changeQtd={ this.changeQtd }
-              totalItems={ totalItems }
-            />) }
+            render={(props) => (<CartPage
+              {...props}
+              productsOnCart={productsOnCart}
+              changeQtd={this.changeQtd}
+              totalItems={totalItems}
+            />)}
           />
           <Route
             path="/checkout"
-            render={ (props) => (<Checkout
-              { ...props }
-              getFromLocalStorage={ this.getFromLocalStorage }
-            />) }
+            render={(props) => (<Checkout
+              {...props}
+              getFromLocalStorage={this.getFromLocalStorage}
+            />)}
           />
           <Route
             path="/:id"
-            render={ (props) => <ProductDetails { ...props } addCart={ this.addCart } /> }
+            render={(props) => <ProductDetails {...props} addCart={this.addCart} />}
           />
           <Route
             path="/"
-            render={ (props) => (<MainPage
-              { ...props }
-              categories={ categories }
-              products={ products }
-              onclick={ this.buscaDeProdutos }
-              addCart={ this.addCart }
-              onChange={ this.handleChange }
-              onClickInput={ this.buscaProdutosInput }
-            />) }
+            render={(props) => (<MainPage
+              {...props}
+              categories={categories}
+              products={products}
+              onclick={this.buscaDeProdutos}
+              addCart={this.addCart}
+              onChange={this.handleChange}
+              onClickInput={this.buscaProdutosInput}
+            />)}
           />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
