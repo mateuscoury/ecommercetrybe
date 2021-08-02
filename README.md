@@ -1,3 +1,7 @@
+##Projeto de E-commerce
+Projeto de front-end da Trybe em React cuja finalidade era desenvolver um app de e-commerce como a amazon fazendo requisições para api do mercado livre para pegar os dados dos produtos
+
+
 ### Termos de acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe
